@@ -1,0 +1,26 @@
+.taskItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  &__:hover {
+    background-color: #003366;
+  }
+
+  &__removeButton {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  &__removeButton:hover {
+    background-color: #d32f2f;
+  }
+}

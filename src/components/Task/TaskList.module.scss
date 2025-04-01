@@ -1,0 +1,17 @@
+.taskList {
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+
+  &__title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  &__items {
+    list-style-type: none;
+    padding: 0;
+  }
+}
