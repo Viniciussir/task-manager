@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import { TaskState } from "../../features/task/types/taskTypes";
-import TaskItem from "./TaskItem";
+import TaskItem from "../TaskItem/TaskItem";
 import styles from "./TaskList.module.scss";
 
 const TaskList: React.FC = () => {

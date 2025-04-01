@@ -4,6 +4,7 @@ import { addTask } from "../../features/task/actions/taskActions";
 import Input from "../Input/Input";
 import Button from "../Button/Button";
 import styles from "./TaskAdd.module.scss";
+import { useSelector } from "react-redux";
 
 const AddTask: React.FC = () => {
   const [taskTitle, setTaskTitle] = useState("");

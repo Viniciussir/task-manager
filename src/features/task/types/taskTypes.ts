@@ -4,9 +4,6 @@ export interface Task {
   completed: boolean;
 }
 
-export const ADD_TASK = "ADD_TASK";
-export const REMOVE_TASK = "REMOVE_TASK";
-
 interface AddTaskAction {
   type: typeof ADD_TASK;
   payload: Task;
@@ -17,8 +14,10 @@ interface RemoveTaskAction {
   payload: number;
 }
 
-export type TaskActionTypes = AddTaskAction | RemoveTaskAction;
-
 export interface TaskState {
   tasks: Task[];
 }
+
+export const ADD_TASK = "ADD_TASK";
+export const REMOVE_TASK = "REMOVE_TASK";
+export type TaskActionTypes = AddTaskAction | RemoveTaskAction;

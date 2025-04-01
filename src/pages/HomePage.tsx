@@ -1,5 +1,5 @@
-import AddTask from "../components/Task/TaskAdd";
-import TaskList from "../components/Task/TaskList";
+import AddTask from "../components/TaskAdd/TaskAdd";
+import TaskList from "../components/TaskList/TaskList";
 import React from "react";
 import styles from "./HomePage.module.scss";
 
